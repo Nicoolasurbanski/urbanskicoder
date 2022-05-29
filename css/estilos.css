@@ -13,7 +13,7 @@ body {
 .headerhome {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -177,7 +177,7 @@ body {
 }
 
 .somoslogo{
-    background-image: url(/img/Quiénes-somos.jpg);
+    background-image: url(img/Quiénes-somos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,7 +191,7 @@ body {
 
 @media (max-width: 992px){
     .somoslogo{
-        background-image: url(/img/Quiénes-somos.jpg);
+        background-image: url(img/Quiénes-somos.jpg);
         box-shadow:none;
         height: 50vh;
     }
@@ -278,7 +278,7 @@ footer li{
 
 .foto1 {
     grid-area: foto1;
-    background-image: url(/img/foto1.jpg);
+    background-image: url(img/foto1.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -286,35 +286,35 @@ footer li{
     font-size: 20px;
 }
 .foto2 {
-    background-image: url(/img/foto2.jpg);
+    background-image: url(img/foto2.jpg);
     grid-area: foto2;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .foto3 {
-    background-image: url(/img/foto3.jpg);
+    background-image: url(img/foto3.jpg);
     grid-area: foto3;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .foto4 {
-    background-image: url(/img/foto4.jfif);
+    background-image: url(img/foto4.jfif);
     grid-area: foto4;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .foto5 {
-    background-image: url(/img/foto5.jfif);
+    background-image: url(img/foto5.jfif);
     background-position: center;
     grid-area: foto5;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .foto6 {
-    background-image: url(/img/foto6.jpg);
+    background-image: url(img/foto6.jpg);
     grid-area: foto6;
     background-position: center;
     background-size: cover;
@@ -401,7 +401,7 @@ footer li{
 .headerfotos {
     width: 100%;
     min-height: 50vh;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Hall-of-Fame\ \(2\).jpeg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Hall-of-Fame\ \(2\).jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -416,7 +416,7 @@ footer li{
 /* PAGE RANKING */
 .headerranking {
     width: 100%;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Ranking.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Ranking.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -459,7 +459,7 @@ footer li{
 
 .headercontacto{
     width: 100%;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/contacto.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/contacto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -595,7 +595,7 @@ footer li{
 }
 
 #bonus{
-    background-image: url(/img/bonus.jpg);
+    background-image: url(img/bonus.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -628,7 +628,7 @@ footer li{
 }
 
 #bonusve{
-    background-image: url(/img/vegas.jpg);
+    background-image: url(img/vegas.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -637,7 +637,7 @@ footer li{
 }
 
 #bonusri{
-    background-image: url(/img/rio.jpg);
+    background-image: url(img/rio.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -646,7 +646,7 @@ footer li{
 }
 
 #bonuslu{
-    background-image: url(/img/luxor.jfif);
+    background-image: url(img/luxor.jfif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
