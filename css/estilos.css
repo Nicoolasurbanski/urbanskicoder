@@ -457,3 +457,156 @@ footer li{
 .form{
     padding-bottom: 25px;
 }
+
+.btn-enviar{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: green;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    box-shadow: 3px 2px 1px #333
+}
+
+.btn-enviar:hover{
+    background-color: greenyellow;
+    color: red;
+}
+.btn-borrar{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(69, 71, 69);
+    font-size: 1.0em;
+    text-transform: uppercase;
+    box-shadow: 3px 2px 1px #333
+}
+
+.btn-borrar:hover{
+    background-color: rgb(0, 0, 0);
+    color: white
+}
+
+/* page torneos */
+
+.view {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+.pagebonus h2{
+    background-color: red;
+    text-align: center;
+    color: #fff;
+    font-family: 'Anton'
+
+}
+
+#bonus{
+    background-image: url(/img/bonus.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 10px;
+}
+.fotobonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fotobonus h3{
+    padding-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Anton';
+    color: red;
+    text-shadow: 2px 1px black;
+    font-size: 3em;
+    
+
+}
+
+.fotobonus ul li{
+    text-align: center;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-size: 2em;
+}
+
+#bonusve{
+    background-image: url(/img/vegas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+#bonusri{
+    background-image: url(/img/rio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+#bonuslu{
+    background-image: url(/img/luxor.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 10px;
+}
