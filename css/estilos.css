@@ -28,18 +28,36 @@ body {
     font-size: 1.5em;
 }
 
+
 .cuatro {
     color: red;
 }
 
 .cuatro1 {
-    color: yellow;
-}
+    color: red;
+    text-shadow: 2px 2px black;
 
+}
 .unite {
     color: white;
+    animation-name: unite;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+    
 }
-
+@keyframes unite{
+    0%{
+        color: white;
+    }
+    50%{
+        color: red;
+    }
+    100%{
+        color: yellow;
+    }
+}
 
 .navega a {
     font-size: 20px;
@@ -68,9 +86,11 @@ body {
 }
 
 .container-text h1 {
-    color: red;
     font-size: 3.5em;
     font-family: 'Anton';
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    text-align: center;
 
 }
 
@@ -79,27 +99,33 @@ body {
     color: white;
 
 }
-
+/* boton unite inicia */
 .btn-unite {
     color: white;
     font-family: 'Montserrat', sans-serif;
     background-color: red;
-    font-size: 1.5em;
+    font-size: 2em;
     text-transform: uppercase;
     box-shadow: 3px 2px 1px rgb(201, 1, 1);
+    text-decoration: none;
+    
     
 
 
 
 }
-
+.btn-unite a{
+    text-decoration: none;
+    color: white;
+}
 .btn-unite:hover {
-    background-color: rgba(255, 0, 0, 0.19);
+    background-color: rgb(132, 3, 3);
     box-shadow: none;
     
+    
 
 }
-
+/* boton unite finaliza */
 /* FIN HEADER */
 
 .torneos-especiales {
@@ -443,6 +469,9 @@ footer li{
     padding-top: 0px;
     color: azure;
 }
+.contacto_main{
+    background-color: #333;
+}
 
 .titulocontacto h3{
     color: aliceblue;
@@ -485,64 +514,77 @@ footer li{
     color: white
 }
 
+.form__group {
+    position: relative;
+    padding: 20px 0 0;
+    margin-top: 10px;
+    width: 100%;
+    max-width: 180px;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 17px;
+    color: #fff;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .form__field::placeholder {
+    color: transparent;
+  }
+  
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 17px;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #9b9b9b;
+    pointer-events: none;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #116399, #38caef);
+    border-image-slice: 1;
+  }
+  
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #38caef;
+    font-weight: 700;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+
+
+
+
+
 /* page torneos */
 
-.view {
-    width: 300px;
-    height: 200px;
-    margin: 10px;
-    float: left;
-    border: 10px solid #fff;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    box-shadow: 1px 1px 2px #e6e6e6;
-    cursor: default;
-    background: #fff url(../images/bgimg.jpg) no-repeat center center
-}
-.view .mask, .view .content {
-    width: 300px;
-    height: 200px;
-    position: absolute;
-    overflow: hidden;
-    top: 0;
-    left: 0
-}
-.view img {
-    display: block;
-    position: relative
-}
-.view h2 {
-    text-transform: uppercase;
-    color: #fff;
-    text-align: center;
-    position: relative;
-    font-size: 17px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
-    margin: 20px 0 0 0
-}
-.view p {
-    font-family: Georgia, serif;
-    font-style: italic;
-    font-size: 12px;
-    position: relative;
-    color: #fff;
-    padding: 10px 20px 20px;
-    text-align: center
-}
-.view a.info {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    background: #000;
-    color: #fff;
-    text-transform: uppercase;
-    box-shadow: 0 0 1px #000
-}
-.view a.info:hover {
-    box-shadow: 0 0 5px #000
-}
+
 .pagebonus h2{
     background-color: red;
     text-align: center;
