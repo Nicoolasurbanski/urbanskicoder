@@ -145,6 +145,35 @@ body {
 }
 
 
+#quienessomos{
+    background-color: azure;
+}
+
+.somoslogo{
+    background-image: url(/img/Quiénes-somos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 50px;
+    margin-right: 0px;
+    box-shadow: 2px 2px 1px #333;
+    
+
+}
+.somosparrafo{
+    color: #333;
+    font-family: 'Anton';
+    padding-left: 100px;
+    
+}
+.somosparrafo h3{
+    color: red;
+    padding-bottom: 15px;
+}
+
+
+
 /* footer */
 
 footer{
@@ -370,3 +399,5 @@ footer li{
     font-size: 2.4em;
 
 }
+
+/* inicia  */
