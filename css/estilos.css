@@ -104,10 +104,11 @@ body {
     color: white;
     font-family: 'Montserrat', sans-serif;
     background-color: red;
-    font-size: 2em;
+    font-size: 1.7em;
     text-transform: uppercase;
     box-shadow: 3px 2px 1px rgb(201, 1, 1);
     text-decoration: none;
+    width: 100%vh;
     
     
 
