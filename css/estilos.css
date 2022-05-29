@@ -22,8 +22,10 @@ body {
 .titulo {
     letter-spacing: 5px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'anton', sans-serif;
     font-weight: bold;
+    padding-left: 50px;
+    font-size: 1.5em;
 }
 
 .cuatro {
@@ -109,16 +111,14 @@ body {
 
 
 .torneos-especiales h1 {
-    font-size: 2em;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Montserrat', sans-serif;
     color: white;
-    padding-top: 25px;
-    padding-bottom: 8px;
+    text-align: center;
+    padding-top: 10px;
     background-color: red;
-    margin-bottom:30px;
+    font-family: 'Anton';
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 4px 4px black;
     
 
 }
@@ -164,8 +164,9 @@ body {
 
 @media (max-width: 992px){
     .somoslogo{
-        background-image: none;
+        background-image: url(/img/Quiénes-somos.jpg);
         box-shadow:none;
+        height: 50vh;
     }
    
 }
@@ -233,9 +234,8 @@ footer li{
     display: grid;
     padding: 80px;
     gap: 10px;
+    height: 1150px;
     justify-content: center;
-    background-color: azure
-    padding-top: 30px;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(4, 300px);
     grid-template-areas:
@@ -299,6 +299,25 @@ footer li{
     transition: 2s all;
 }
 
+.titulofoto h2{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    background-color: red;
+    font-family: 'Anton';
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow: 4px 4px black;
+    
+}
+
+
+    
+
+    
+    
+
+
 
 /* media de grid de galeria INICIA */
 @media only screen and (max-width: 820px) {
@@ -307,6 +326,7 @@ footer li{
             display: grid;
             padding: 80px;
             gap: 10px;
+            height: 1650px;
             justify-content: center;
             padding-top: 10px;
             grid-template-columns: repeat(2, 50%);
@@ -408,4 +428,32 @@ footer li{
 
 }
 
-/* inicia  */
+/* inicia  PAGE CONTACTO*/
+
+.headercontacto{
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.headercontacto h1{
+    color: aqua;
+    padding-top: 0px;
+    color: azure;
+}
+
+.titulocontacto h3{
+    color: aliceblue;
+    text-shadow: 3px 2px #333;
+    font-size: 4em;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+    font-family: 'Anton'
+}
+
+.form{
+    padding-bottom: 25px;
+}
