@@ -39,11 +39,28 @@ body {
 
 .unite {
   color: white;
-  animation-name: unite;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-delay: 1s;
+  -webkit-animation-name: unite;
+          animation-name: unite;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes unite {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: yellow;
+  }
 }
 
 @keyframes unite {
@@ -307,6 +324,7 @@ footer li a:hover {
     grid-template-rows: repeat(6, 250px);
     grid-template-areas: "foto1 foto1" "foto2 foto2" "foto3 foto3" "foto4 foto4" "foto5 foto5" "foto6 foto6";
   }
+
   .foto {
     border: 2px solid #333;
     border-radius: 10px;
@@ -468,8 +486,28 @@ footer li a:hover {
   transition: border-color 0.2s;
 }
 
+.form__field::-moz-placeholder {
+  color: transparent;
+}
+
+.form__field:-ms-input-placeholder {
+  color: transparent;
+}
+
 .form__field::placeholder {
   color: transparent;
+}
+
+.form__field:-moz-placeholder-shown ~ .form__label {
+  font-size: 17px;
+  cursor: text;
+  top: 20px;
+}
+
+.form__field:-ms-input-placeholder ~ .form__label {
+  font-size: 17px;
+  cursor: text;
+  top: 20px;
 }
 
 .form__field:placeholder-shown ~ .form__label {
@@ -492,7 +530,8 @@ footer li a:hover {
   padding-bottom: 6px;
   font-weight: 700;
   border-width: 3px;
-  border-image: linear-gradient(to right, #116399, #38caef);
+  -o-border-image: linear-gradient(to right, #116399, #38caef);
+     border-image: linear-gradient(to right, #116399, #38caef);
   border-image-slice: 1;
 }
 
@@ -585,6 +624,4 @@ footer li a:hover {
   background-repeat: no-repeat;
   height: 500px;
   margin-bottom: 10px;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */
