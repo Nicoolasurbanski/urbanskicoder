@@ -11,12 +11,15 @@ body {
 
 /* TODO HEADER */
 .headerhome {
-  width: 100%;
-  min-height: 100vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
+
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .titulo {
@@ -147,28 +150,28 @@ body {
   background-color: white;
 }
 
-.somoslogo {
-  background-image: url(/img/Quiénes-somos.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  border-radius: 50px;
-  margin-right: 0px;
-  box-shadow: 2px 2px 1px #333;
+
+.somoslogo{
+    background-image: url(../img/Quiénes-somos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 50px;
+    margin-right: 0px;
+    box-shadow: 2px 2px 1px #333;
+    
+
 }
 
-@media (max-width: 992px) {
-  .somoslogo {
-    background-image: url(/img/Quiénes-somos.jpg);
-    box-shadow: none;
-    height: 50vh;
-  }
-}
-.somosparrafo {
-  color: #333;
-  font-family: "anton";
-  padding-left: 100px;
+@media (max-width: 992px){
+    .somoslogo{
+        background-image: url(../img/Quiénes-somos.jpg);
+        box-shadow:none;
+        height: 50vh;
+    }
+   
+
 }
 .somosparrafo h3 {
   color: red;
@@ -234,53 +237,59 @@ footer li a:hover {
 }
 
 .foto1 {
-  grid-area: foto1;
-  background-image: url(/img/foto1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: aliceblue;
-  font-size: 20px;
+
+    grid-area: foto1;
+    background-image: url(../img/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-size: 20px;
 }
 
 .foto2 {
-  background-image: url(/img/foto2.jpg);
-  grid-area: foto2;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url(../img/foto2.jpg);
+    grid-area: foto2;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .foto3 {
-  background-image: url(/img/foto3.jpg);
-  grid-area: foto3;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url(../img//foto3.jpg);
+    grid-area: foto3;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .foto4 {
-  background-image: url(/img/foto4.jfif);
-  grid-area: foto4;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url(../img/foto4.jfif);
+    grid-area: foto4;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .foto5 {
-  background-image: url(/img/foto5.jfif);
-  background-position: center;
-  grid-area: foto5;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+    background-image: url(../img/foto5.jfif);
+    background-position: center;
+    grid-area: foto5;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .foto6 {
-  background-image: url(/img/foto6.jpg);
-  grid-area: foto6;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url(../img/foto6.jpg);
+    grid-area: foto6;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .titulofoto h2 {
@@ -332,13 +341,14 @@ footer li a:hover {
 
 /* PAGE FOTOS */
 .headerfotos {
-  width: 100%;
-  min-height: 50vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Hall-of-Fame\ \(2\).jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-position-x: right;
+    width: 100%;
+    min-height: 50vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Hall-of-Fame\ \(2\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x:right;
+
 }
 
 .titulo-fotos h1 {
@@ -349,12 +359,14 @@ footer li a:hover {
 
 /* PAGE RANKING */
 .headerranking {
-  width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Ranking.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-position-x: right;
+
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/Ranking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position-x:right;
+
 }
 
 .rank-titulo h1 {
@@ -388,12 +400,15 @@ footer li a:hover {
 }
 
 /* inicia  PAGE CONTACTO*/
-.headercontacto {
-  width: 100%;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
+
+.headercontacto{
+    width: 100%;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .headercontacto h1 {
@@ -530,13 +545,20 @@ footer li a:hover {
   font-family: "anton";
 }
 
-#bonus {
-  background-image: url(/img/bonus.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  margin-bottom: 10px;
+
+#bonus{
+    background-image: url(../img/bonus.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 10px;
+}
+.fotobonus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .fotobonus {
@@ -569,22 +591,31 @@ footer li a:hover {
   margin-bottom: 10px;
 }
 
-#bonusri {
-  background-image: url(/img/rio.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  margin-bottom: 10px;
+
+#bonusve{
+    background-image: url(../img/vegas.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 10px;
 }
 
-#bonuslu {
-  background-image: url(/img/luxor.jfif);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 500px;
-  margin-bottom: 10px;
+#bonusri{
+    background-image: url(../img/rio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 10px;
 }
 
-/*# sourceMappingURL=estilos.css.map */
+#bonuslu{
+    background-image: url(../img/luxor.jfif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 10px;
+}
+
