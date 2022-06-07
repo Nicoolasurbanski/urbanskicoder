@@ -322,13 +322,16 @@ footer {
         transition: 2s all;
     }
 }
-
-.foto1 {
-    grid-area: foto1;
-    background-image: url(/img/foto1.jpg);
+@mixin cfgIMG{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.foto1 {
+    @include cfgIMG;
+    grid-area: foto1;
+    background-image: url(/img/foto1.jpg);
     color: aliceblue;
     font-size: 20px;
 }
@@ -482,10 +485,26 @@ footer {
     text-shadow: 2px 1px $color1;
     font-size: 4em;
 }
+@mixin tables($fuente , $gold : false, $silver : false) {
+    font-family: $fuente;
+    @if $gold {
+        color : gold ;
+
+    }
+    @else if $silver {
+        color : silver;
+
+    }
+    @else {
+        color: burlywood;
+    }
+    
+    
+}
 
 .rdorado h2 {
-    color: goldenrod;
-    font-family: $fuente1;
+    @include tables($fuente1,true ,false );
+   
     text-transform: uppercase;
     text-shadow: 2px 1px rgb(0, 0, 0);
     font-size: 2.4em;
@@ -493,8 +512,7 @@ footer {
 }
 
 .rplata h2 {
-    color: silver;
-    font-family: $fuente1;
+    @include tables($fuente1,false ,true);
     text-transform: uppercase;
     text-shadow: 2px 1px rgb(0, 0, 0);
     font-size: 2.4em;
@@ -502,8 +520,7 @@ footer {
 }
 
 .rbronce h2 {
-    color: burlywood;
-    font-family: $fuente1;
+    @include tables($fuente1,false ,false );
     text-transform: uppercase;
     text-shadow: 2px 1px rgb(0, 0, 0);
     font-size: 2.4em;
@@ -722,3 +739,4 @@ footer {
     height: 500px;
     margin-bottom: 10px;
 }
+

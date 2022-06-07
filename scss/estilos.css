@@ -251,11 +251,11 @@ footer li a:hover {
 }
 
 .foto1 {
-  grid-area: foto1;
-  background-image: url(/img/foto1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  grid-area: foto1;
+  background-image: url(/img/foto1.jpg);
   color: aliceblue;
   font-size: 20px;
 }
@@ -382,24 +382,24 @@ footer li a:hover {
 }
 
 .rdorado h2 {
-  color: goldenrod;
   font-family: "anton";
+  color: gold;
   text-transform: uppercase;
   text-shadow: 2px 1px rgb(0, 0, 0);
   font-size: 2.4em;
 }
 
 .rplata h2 {
-  color: silver;
   font-family: "anton";
+  color: silver;
   text-transform: uppercase;
   text-shadow: 2px 1px rgb(0, 0, 0);
   font-size: 2.4em;
 }
 
 .rbronce h2 {
-  color: burlywood;
   font-family: "anton";
+  color: burlywood;
   text-transform: uppercase;
   text-shadow: 2px 1px rgb(0, 0, 0);
   font-size: 2.4em;
