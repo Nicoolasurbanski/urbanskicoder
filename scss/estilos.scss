@@ -115,11 +115,11 @@ body {
         text-align: center;
     }
 
-        p {
-            font-size: 2em;
-            color: $color2;
-        }
+    p {
+        font-size: 2em;
+        color: $color2;
     }
+}
 
 
 /* boton unite inicia */
@@ -138,11 +138,11 @@ body {
         color: white;
     }
 
-        &:hover {
-            background-color: rgb(132, 3, 3);
-            box-shadow: none;
-        }
+    &:hover {
+        background-color: rgb(132, 3, 3);
+        box-shadow: none;
     }
+}
 
 
 
@@ -224,11 +224,11 @@ body {
     padding-left: 100px;
 }
 
-    h3 {
-        color: red;
-        padding-bottom: 15px;
-        font-family: $fuente1 ;
-    }
+h3 {
+    color: red;
+    padding-bottom: 15px;
+    font-family: $fuente1;
+}
 
 
 
@@ -320,7 +320,8 @@ footer {
         transition: 2s all;
     }
 }
-@mixin cfgIMG{
+
+@mixin cfgIMG {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -456,26 +457,30 @@ footer {
     text-shadow: 2px 1px $color1;
     font-size: 4em;
 }
-@mixin tables($fuente , $gold : false, $silver : false) {
+
+@mixin tables($fuente, $gold : false, $silver : false) {
     font-family: $fuente;
+
     @if $gold {
-        color : gold ;
+        color: gold;
 
     }
+
     @else if $silver {
-        color : silver;
+        color: silver;
 
     }
+
     @else {
         color: burlywood;
     }
-    
-    
+
+
 }
 
 .rdorado h2 {
-    @include tables($fuente1,true ,false );
-   
+    @include tables($fuente1, true, false);
+
     text-transform: uppercase;
     text-shadow: 2px 1px rgb(0, 0, 0);
     font-size: 2.4em;
@@ -483,7 +488,7 @@ footer {
 }
 
 .rplata h2 {
-    @include tables($fuente1,false ,true);
+    @include tables($fuente1, false, true);
     text-transform: uppercase;
     text-shadow: 2px 1px rgb(0, 0, 0);
     font-size: 2.4em;
@@ -491,7 +496,7 @@ footer {
 }
 
 .rbronce h2 {
-    @include tables($fuente1,false ,false );
+    @include tables($fuente1, false, false);
     text-transform: uppercase;
     text-shadow: 2px 1px rgb(0, 0, 0);
     font-size: 2.4em;
@@ -671,14 +676,14 @@ footer {
         font-size: 3em;
     }
 
-        ul li {
-            text-align: center;
-            list-style: none;
-            font-family: $fuente2;
-            font-size: 2em;
+    ul li {
+        text-align: center;
+        list-style: none;
+        font-family: $fuente2;
+        font-size: 2em;
 
-        }
     }
+}
 
 
 
