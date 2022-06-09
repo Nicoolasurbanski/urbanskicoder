@@ -4,6 +4,28 @@ $fuente2: 'Montserrat';
 $color1: #333;
 $color2: white;
 
+$colors : [];
+$negrito: #01151b;
+$red: #fa211d;
+$yellow: #ADC9EA;
+$green: #D8F0D4;
+
+$colors: map-merge(
+    (
+      "razul": $negrito,
+      "rrojo": $red,
+      "ryelow": $yellow,
+      "rgreen": $green,
+    ),
+    $colors
+);
+@each $name, $value in $colors {
+    .ru-#{$name} {
+      color : $value;
+    }
+}
+
+
 
 * {
     margin: 0;
@@ -37,11 +59,11 @@ body {
 
 
 .cuatro {
-    color: red;
+    color: red
 }
 
 .cuatro1 {
-    color: red;
+    color: bg-cielo;
     text-shadow: 2px 2px black;
 
 }
