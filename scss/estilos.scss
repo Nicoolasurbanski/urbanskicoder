@@ -1,5 +1,6 @@
 $fuente1:'Anton';
 $fuente2: 'Montserrat';
+
 $color1: #333;
 $color2: white;
 
@@ -19,7 +20,7 @@ body {
 .headerhome {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner.jpg);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -196,7 +197,7 @@ body {
 }
 
 .somoslogo {
-    background-image: url(/img/Quiénes-somos.jpg);
+    background-image: url(../img/Quiénes-somos.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -210,7 +211,7 @@ body {
 
 @media (max-width: 992px) {
     .somoslogo {
-        background-image: url(/img/Quiénes-somos.jpg);
+        background-image: url(../img/Quiénes-somos.jpg);
         box-shadow: none;
         height: 50vh;
     }
@@ -329,13 +330,13 @@ footer {
 .foto1 {
     @include cfgIMG;
     grid-area: foto1;
-    background-image: url(/img/foto1.jpg);
+    background-image: url(../img/foto1.jpg);
     color: aliceblue;
     font-size: 20px;
 }
 
 .foto2 {
-    background-image: url(/img/foto2.jpg);
+    background-image: url(../img/foto2.jpg);
     grid-area: foto2;
     background-position: center;
     background-size: cover;
@@ -343,7 +344,7 @@ footer {
 }
 
 .foto3 {
-    background-image: url(/img/foto3.jpg);
+    background-image: url(../img/foto3.jpg);
     grid-area: foto3;
     background-position: center;
     background-size: cover;
@@ -351,7 +352,7 @@ footer {
 }
 
 .foto4 {
-    background-image: url(/img/foto4.jfif);
+    background-image: url(../img/foto4.jfif);
     grid-area: foto4;
     background-position: center;
     background-size: cover;
@@ -359,7 +360,7 @@ footer {
 }
 
 .foto5 {
-    background-image: url(/img/foto5.jfif);
+    background-image: url(../img/foto5.jfif);
     background-position: center;
     grid-area: foto5;
     background-size: cover;
@@ -367,7 +368,7 @@ footer {
 }
 
 .foto6 {
-    background-image: url(/img/foto6.jpg);
+    background-image: url(../img/foto6.jpg);
     grid-area: foto6;
     background-position: center;
     background-size: cover;
