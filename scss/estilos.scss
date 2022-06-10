@@ -142,6 +142,9 @@ body {
     }
 }
 
+.wave{
+    background-color: white;
+}
 
 /* boton unite inicia */
 .btn-unite {
@@ -248,21 +251,14 @@ body {
 
 
 /* footer */
-
-footer {
+.footer{
     color: $color2;
     text-align: center;
-
-
+    background-color: #333
 }
 
 
-
-
-footer {
-
-
-
+.linkfotter{
     li {
         list-style: none;
 
@@ -289,6 +285,10 @@ footer {
             }
         }
     }
+}
+
+.redesf ul li {
+    list-style-type: none;
 }
 
 

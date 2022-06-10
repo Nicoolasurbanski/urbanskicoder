@@ -103,6 +103,10 @@ body {
   color: white;
 }
 
+.wave {
+  background-color: white;
+}
+
 /* boton unite inicia */
 .btn-unite {
   color: white;
@@ -184,15 +188,16 @@ body {
 }
 
 /* footer */
-footer {
+.footer {
   color: white;
   text-align: center;
+  background-color: #333;
 }
 
-footer li {
+.linkfotter li {
   list-style: none;
 }
-footer li a {
+.linkfotter li a {
   text-decoration: none;
   color: white;
   display: flex;
@@ -202,9 +207,13 @@ footer li a {
   list-style: none;
   font-weight: none;
 }
-footer li a:hover {
+.linkfotter li a:hover {
   color: red;
   transform: scale(1.1);
+}
+
+.redesf ul li {
+  list-style-type: none;
 }
 
 .somosf h3 {
