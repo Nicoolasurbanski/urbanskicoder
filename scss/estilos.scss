@@ -10,18 +10,17 @@ $rojo: #fa211d;
 $amarillo: #f1ff2d;
 $verde: #71f859;
 
-$colors: map-merge(
-    (
-      "rnegrito": $negrito,
-      "rrojo": $rojo,
-      "ramarillo": $amarillo,
-      "rverde": $verde,
+$colors: map-merge(("rnegrito": $negrito,
+        "rrojo": $rojo,
+        "ramarillo": $amarillo,
+        "rverde": $verde,
     ),
-    $colors
-);
-@each $name, $value in $colors {
+    $colors);
+
+@each $name,
+$value in $colors {
     .ru-#{$name} {
-      color : $value;
+        color: $value;
     }
 }
 
@@ -47,6 +46,7 @@ body {
     background-size: cover;
     background-position: center;
 }
+
 
 .titulo {
     letter-spacing: 5px;
@@ -126,14 +126,14 @@ body {
     height: 400px;
     color: $color2;
     font-family: $fuente2;
-  
+
 
     h1 {
         font-size: 3.5em;
         font-family: $fuente1;
         text-shadow: 2px 2px black;
         text-transform: uppercase;
-        
+
     }
 
     p {
@@ -238,10 +238,10 @@ body {
 
 
     h3 {
-    color: red;
-    padding-bottom: 15px;
-    font-family: $fuente1;
-}
+        color: red;
+        padding-bottom: 15px;
+        font-family: $fuente1;
+    }
 }
 
 
@@ -759,6 +759,7 @@ footer {
         border-radius: 10px;
     }
 }
+
 @media (max-width: 992px) {
     .somoslogo {
         background-image: url(../img/Quiénes-somos.jpg);
@@ -766,4 +767,4 @@ footer {
         height: 50vh;
     }
 }
-/* media de grid de galeria TERMINA */
+
