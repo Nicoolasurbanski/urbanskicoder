@@ -6,16 +6,16 @@ $color2: white;
 
 $colors : [];
 $negrito: #01151b;
-$red: #fa211d;
-$yellow: #ADC9EA;
-$green: #D8F0D4;
+$rojo: #fa211d;
+$amarillo: #f1ff2d;
+$verde: #71f859;
 
 $colors: map-merge(
     (
-      "razul": $negrito,
-      "rrojo": $red,
-      "ryelow": $yellow,
-      "rgreen": $green,
+      "rnegrito": $negrito,
+      "rrojo": $rojo,
+      "ramarillo": $amarillo,
+      "rverde": $verde,
     ),
     $colors
 );
@@ -63,7 +63,7 @@ body {
 }
 
 .cuatro1 {
-    color: bg-cielo;
+    color: red;
     text-shadow: 2px 2px black;
 
 }
@@ -126,15 +126,14 @@ body {
     height: 400px;
     color: $color2;
     font-family: $fuente2;
-    padding-top: 90px;
-    padding-left: 40px;
+  
 
     h1 {
         font-size: 3.5em;
         font-family: $fuente1;
         text-shadow: 2px 2px black;
         text-transform: uppercase;
-        text-align: center;
+        
     }
 
     p {
@@ -153,7 +152,7 @@ body {
     text-transform: uppercase;
     box-shadow: 3px 2px 1px rgb(201, 1, 1);
     text-decoration: none;
-    width: 100%;
+    width: 30%;
 
     a {
         text-decoration: none;
@@ -170,6 +169,7 @@ body {
 
 /* boton unite finaliza */
 /* FIN HEADER */
+/* INICIA TORNEOS */
 
 .torneos-especiales {
     background-color: $color1;
@@ -231,25 +231,17 @@ body {
 
 }
 
-@media (max-width: 992px) {
-    .somoslogo {
-        background-image: url(../img/Quiénes-somos.jpg);
-        box-shadow: none;
-        height: 50vh;
-    }
-
-}
-
 .somosparrafo {
     color: $color1;
     font-family: $fuente1;
     padding-left: 100px;
-}
 
-h3 {
+
+    h3 {
     color: red;
     padding-bottom: 15px;
     font-family: $fuente1;
+}
 }
 
 
@@ -775,5 +767,11 @@ footer {
         border-radius: 10px;
     }
 }
-
+@media (max-width: 992px) {
+    .somoslogo {
+        background-image: url(../img/Quiénes-somos.jpg);
+        box-shadow: none;
+        height: 50vh;
+    }
+}
 /* media de grid de galeria TERMINA */

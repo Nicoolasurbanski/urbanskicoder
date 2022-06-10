@@ -1,5 +1,5 @@
 {
-  "name": "prueba3",
+  "name": "clubpoker44",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -9,11 +9,11 @@
     "type": "git",
     "url": "git+https://github.com/Nicoolasurbanski/urbanskicoder.git"
   },
-  "author": "",
+  "author": "nicolas-urbanski",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nicoolasurbanski/urbanskicoder/issues"
   },
   "homepage": "https://github.com/Nicoolasurbanski/urbanskicoder#readme",
-  "description": ""
+  "description": "poker , homegames,pokerstarts,casino"
 }

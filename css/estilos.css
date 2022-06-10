@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.ru-razul {
+.ru-rnegrito {
   color: #01151b;
 }
 
@@ -7,12 +7,12 @@
   color: #fa211d;
 }
 
-.ru-ryelow {
-  color: #ADC9EA;
+.ru-ramarillo {
+  color: #f1ff2d;
 }
 
-.ru-rgreen {
-  color: #D8F0D4;
+.ru-rverde {
+  color: #71f859;
 }
 
 * {
@@ -49,7 +49,7 @@ body {
 }
 
 .cuatro1 {
-  color: bg-cielo;
+  color: red;
   text-shadow: 2px 2px black;
 }
 
@@ -91,15 +91,12 @@ body {
   height: 400px;
   color: white;
   font-family: "Montserrat";
-  padding-top: 90px;
-  padding-left: 40px;
 }
 .container-text h1 {
   font-size: 3.5em;
   font-family: "Anton";
   text-shadow: 2px 2px black;
   text-transform: uppercase;
-  text-align: center;
 }
 .container-text p {
   font-size: 2em;
@@ -115,7 +112,7 @@ body {
   text-transform: uppercase;
   box-shadow: 3px 2px 1px rgb(201, 1, 1);
   text-decoration: none;
-  width: 100%;
+  width: 30%;
 }
 .btn-unite a {
   text-decoration: none;
@@ -128,6 +125,7 @@ body {
 
 /* boton unite finaliza */
 /* FIN HEADER */
+/* INICIA TORNEOS */
 .torneos-especiales {
   background-color: #333;
   text-align: center;
@@ -174,20 +172,12 @@ body {
   box-shadow: 2px 2px 1px #333;
 }
 
-@media (max-width: 992px) {
-  .somoslogo {
-    background-image: url(../img/Quiénes-somos.jpg);
-    box-shadow: none;
-    height: 50vh;
-  }
-}
 .somosparrafo {
   color: #333;
   font-family: "Anton";
   padding-left: 100px;
 }
-
-h3 {
+.somosparrafo h3 {
   color: red;
   padding-bottom: 15px;
   font-family: "Anton";
@@ -610,6 +600,13 @@ footer li a:hover {
   .foto {
     border: 2px solid #333;
     border-radius: 10px;
+  }
+}
+@media (max-width: 992px) {
+  .somoslogo {
+    background-image: url(../img/Quiénes-somos.jpg);
+    box-shadow: none;
+    height: 50vh;
   }
 }
 /* media de grid de galeria TERMINA */
