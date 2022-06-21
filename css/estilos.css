@@ -244,9 +244,12 @@ body {
   gap: 10px;
   height: 1150px;
   justify-content: center;
-  grid-template-columns: repeat(4, 25%);
-  grid-template-rows: repeat(4, 300px);
-  grid-template-areas: "foto1 foto2 foto2 foto2" "foto1 foto3 foto4 foto4" "foto1 foto5 foto6 foto6";
+  grid-template-columns: repeat(6, 17%);
+  grid-template-rows: repeat(5, 270px);
+  grid-template-areas: "foto1 foto1 foto2 foto2 foto3 foto3"
+                       "foto1 foto1 foto2 foto2 foto3 foto3"
+                       "foto1 foto1 foto4 foto4 foto6 foto6"
+                       "foto1 foto1 foto4 foto4 foto6 foto6";
 }
 
 .foto {
@@ -254,9 +257,10 @@ body {
   border-radius: 10px;
   transition: 2s all;
 }
-.foto:active {
+.foto:hover {
   transform: scale(1.1);
-  transition: 2s all;
+  transition: 3s all;
+  border: red 2px;
 }
 
 .foto1 {
@@ -272,7 +276,7 @@ body {
 .foto2 {
   background-image: url(../img/foto2.jpg);
   grid-area: foto2;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -286,7 +290,7 @@ body {
 }
 
 .foto4 {
-  background-image: url(../img/foto4.jfif);
+  background-image: url(../img/foto4.jpg);
   grid-area: foto4;
   background-position: center;
   background-size: cover;
