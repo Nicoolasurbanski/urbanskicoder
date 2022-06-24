@@ -515,6 +515,17 @@ body {
 .form {
     padding-bottom: 25px;
 }
+.formname{
+background-color: #fa211d;
+color: white;
+font-size: 1em;
+width: 120px;
+text-align: center;
+font-family: "Anton";
+transform: skew(8deg);
+text-shadow: 2px 2px black;
+border-style: double;
+}
 
 .btn-enviar {
     color: $color2;
